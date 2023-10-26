@@ -1,3 +1,100 @@
 * {
     font-family: Arial, Helvetica, sans-serif
-};
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background-color: red;
+    color: white;
+}
+
+#bulka-gora {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(236, 217, 131);
+    border-bottom: 15px solid rgb(236, 201, 42);
+    border-radius: 40px 40px 10px 10px;
+
+}
+
+.ser {
+    width: 430px;
+    height: 10px;
+    background-color: yellow;
+    border-bottom: 5px solid rgb(188, 161, 3);
+}
+.pomidor{
+    width: 250px;
+    height: 20px;
+    background-color: red;
+    border-bottom: 5px solid rgb(164, 0, 0);
+}
+
+.mieso {
+    width: 350px;
+    height: 30px;
+    background-color: rgb(212, 69, 69);
+    border-bottom: 10px solid brown;
+    border-radius: 50px;
+}
+
+.cebula {
+    width: 300px;
+    height: 25px;
+    background-color: purple;
+    justify-content: space-between;
+    display: flex;
+}
+.cebula span
+{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(230, 130, 230);
+    border-radius: 50%;
+    
+    display: inline-block;
+}
+
+.meat-balls
+{
+    display: flex;
+}
+
+.meat-balls span
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 69, 69);
+    border-radius: 50%;
+    
+}
+
+.ogorek {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(3, 226, 3);
+    border-bottom: 15px solid rgb(0, 102, 0);
+    border-radius: 0px 0px 35px 35px;
+}
+
+#bulka-dol {
+    width: 400px;
+    height: 30px;
+    background-color: rgb(236, 217, 131);
+    border-top: 15px solid rgb(236, 201, 42);
+    border-radius: 10px 10px 40px 40px;
+
+}
+
+.talerz {
+    background-color: grey;
+    border-top : 10px solid rgb(221, 221, 221);
+    border-radius: 0px 0px 20px 20px;
+    width: 500px;
+    height: 20px;
+}
