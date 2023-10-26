@@ -13,7 +13,7 @@
 }
 
 #top {
-    width: 400px;
+    width: 50%;
     height: 50px;
     background-color: rgb(236, 217, 131);
     border-bottom: 15px solid rgb(236, 201, 42);
@@ -22,20 +22,20 @@
 }
 
 .cheese {
-    width: 430px;
+    width: 55%;
     height: 10px;
     background-color: yellow;
     border-bottom: 5px solid rgb(188, 161, 3);
 }
 .tomato{
-    width: 250px;
+    width: 40%;
     height: 20px;
     background-color: red;
     border-bottom: 5px solid rgb(164, 0, 0);
 }
 
 .meat {
-    width: 350px;
+    width: 45%;
     height: 30px;
     background-color: rgb(212, 69, 69);
     border-bottom: 10px solid brown;
@@ -43,7 +43,7 @@
 }
 
 .onion {
-    width: 300px;
+    width: 40%;
     height: 25px;
     background-color: purple;
     justify-content: space-between;
@@ -69,12 +69,11 @@
     width: 50px;
     height: 50px;
     background-color: rgb(212, 69, 69);
-    border-radius: 50%;
-    
+    border-radius: 50%;   
 }
 
 .cucumber {
-    width: 200px;
+    width: 40%;
     height: 20px;
     background-color: rgb(3, 226, 3);
     border-bottom: 15px solid rgb(0, 102, 0);
@@ -82,7 +81,7 @@
 }
 
 #bottom {
-    width: 400px;
+    width: 50%;
     height: 30px;
     background-color: rgb(236, 217, 131);
     border-top: 15px solid rgb(236, 201, 42);
@@ -94,6 +93,6 @@
     background-color: grey;
     border-top : 10px solid rgb(221, 221, 221);
     border-radius: 0px 0px 20px 20px;
-    width: 500px;
+    width: 50%;
     height: 20px;
 }
