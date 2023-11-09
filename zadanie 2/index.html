@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="formularz">
+        <h1>Employment Form</h1>
+        <form>
+            <section class="names">
+                <section class="firstname">
+                    <span>First Name</span><br>
+                    <input type="text" name="firstName" placeholder="First Name"><br>
+                </section>
+                <section class="lastname">
+                    <span>Last Name</span><br>
+                    <input type="text" name="lastName" placeholder="Last Name">
+                </section>
+            </section>
+            <section class="emailphonedate">
+                <section class="email">
+                    <span>Email</span><br>
+                    <input type="email" name="email" placeholder="Email">
+                </section>
+                <section class="phone">
+                    <span>Phone</span><br>
+                    <input type="tel" name="phone" placeholder="Phone">
+                </section>
+                <section class="date">
+                    <span>Date of Birth</span><br>
+                    <input type="date" name="dateOfBirth" placeholder="Date of Birth">
+                </section>
+            </section>
+                    
+            
+                    
+            
+
+                <section class="gender">
+                    <span>Gender</span><br>
+                    <select>
+                        <option hidden disabled selected value></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Boeing AH-64 Apache</option>
+                    </select>
+                </section>
+
+                <section class="job">
+                    <span>What are you looking for?</span><br>
+                    <input type="radio" name="lookingFor" value="SoftwareEnginner">Software Enginner
+                    <input type="radio" name="lookingFor" value="UXDesigner">UX Designer
+                    <input value="AnalyticsSpecialist" type="radio" name="lookingFor">Analytics Specialist
+                </section>
+
+                <selection class="language">
+                    <span>Which programming language do you know?</span>
+                    <input type="checkbox" name="programingLanguage" value="Java">Java
+                    <input type="checkbox" name="programingLanguage" value="JavaScript">JavaScript
+                    <input type="checkbox" name="programingLanguage" value="c#">C#
+                    <input type="checkbox" name="programingLanguage" value="kotlin">kotlin
+                    <input type="checkbox" name="programingLanguage" value="python">python
+                    <input type="checkbox" name="programingLanguage" value="Scala">Scala
+                </selection>
+            <selection class="message">
+                <span>Message</span>
+                <input type="text-field" name="message" placeholder="Message" width="500px" height="100px">
+            </selection>
+            <selection class="przyciski">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </selection>
+
+        </form>
+    </main>
+</body>
+
+</html>
